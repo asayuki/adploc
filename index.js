@@ -12,7 +12,8 @@ app.on('ready', () => {
         width: 300,
         frame: false,
         resizable: false,
-        show: false
+        show: false,
+        transparent: true
     });
     mainWindow.loadURL(`file://${__dirname}/src/views/index.html`);
 
